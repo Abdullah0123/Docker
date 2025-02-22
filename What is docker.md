@@ -9,3 +9,11 @@ Docker is an open-source platform that helps developers package, distribute, and
 consistently across different environments by bundling the app code and all its dependencies (e.g., Node.js, MongoDB, etc.) into a container.
 This is especially useful for large teams, as it eliminates the "works on my machine" problem and ensures a consistent development and deployment
 experience.
+
+# What are containers?
+
+Container in docker is a single unit which contains app code, dependencies, config files, tools and everything that are required to run an application. They are fast, light weight and portable. They are isolated, means changing in one container will not change the other container.
+
+# What are images?
+
+Image in docker is blue print (read-only) of the container. It conatains all the information about the app like os, app code, settings and config files. Images are hosted in docker hub. They contain the instructions to create a container. They are also immuteable.
